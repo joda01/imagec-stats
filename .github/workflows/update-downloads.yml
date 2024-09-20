@@ -24,6 +24,7 @@ jobs:
         run: |
           pip install requests
           python get-downloads.py $API_KEY
+          
       - name: Commit changes
         run: |
           git config --global user.email "$GIT_EMAIL"
