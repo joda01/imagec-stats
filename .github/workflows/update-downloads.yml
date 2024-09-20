@@ -1,0 +1,30 @@
+name: get-downloads
+
+#on:
+#  schedule:
+#    - cron: "0 3 * * *"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  request-downloads:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get downloads
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+        run: |
+          pip install requests
+          python get-downloads.py $API_KEY
+      - name: Commit changes
+        run: |
+          git add stats.json
+          git commit -m "Updated download counter"
+      - name: Push changes
+        run: git push origin main
