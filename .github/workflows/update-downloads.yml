@@ -19,11 +19,15 @@ jobs:
       - name: Get downloads
         env:
           API_KEY: ${{ secrets.API_KEY }}
+          GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
+          GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
         run: |
           pip install requests
           python get-downloads.py $API_KEY
       - name: Commit changes
         run: |
+          git config --global user.email "$GIT_EMAIL"
+          git config --global user.name "$GIT_USER_NAME"
           git add stats.json
           git commit -m "Updated download counter"
       - name: Push changes
