@@ -145,6 +145,13 @@
     },
     "2024-11-02": {
         "downloadsToday": 0,
-        "downloadsCountAccumulated": 1286
+        "downloadsCountAccumulated": 1286,
+        "downloadCountAssets":{
+            "downloadCountDetails":{
+                "win":  {"downloadsToday":0,"downloadsCountAccumulated":1286},
+                "macos":{"downloadsToday":0,"downloadsCountAccumulated":0},
+                "linux":{"downloadsToday":0,"downloadsCountAccumulated":0}
+            }
+        }
     }
 }
