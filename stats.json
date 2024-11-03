@@ -294,7 +294,7 @@
                 "publishedAt": "2024-11-01T14:22:51Z"
             },
             "203392574": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v2.0.0-alpha.40",
                 "publishedAt": "2024-11-01T14:22:51Z"
@@ -6106,16 +6106,52 @@
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v2.0.0-alpha.43",
                 "publishedAt": "2024-11-03T12:34:01Z"
+            },
+            "203778168": {
+                "downloadCount": 0,
+                "name": "imagec-arm64-macos-bin.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
+            },
+            "203778166": {
+                "downloadCount": 0,
+                "name": "imagec-arm64-macos-bundle.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
+            },
+            "203778164": {
+                "downloadCount": 0,
+                "name": "imagec-x64-linux-bin.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
+            },
+            "203778163": {
+                "downloadCount": 0,
+                "name": "imagec-x64-linux-bundle.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
+            },
+            "203778167": {
+                "downloadCount": 0,
+                "name": "imagec-x64-win-bin.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
+            },
+            "203778165": {
+                "downloadCount": 1,
+                "name": "imagec-x64-win-bundle.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
             }
         }
     },
     "2024-11-03": {
-        "downloadsToday": 2,
-        "downloadsCountAccumulated": 1287,
+        "downloadsToday": 4,
+        "downloadsCountAccumulated": 1289,
         "downloadCountDetails": {
             "win": {
-                "downloadsToday": 2,
-                "downloadsCountAccumulated": 739
+                "downloadsToday": 4,
+                "downloadsCountAccumulated": 741
             },
             "macos": {
                 "downloadsToday": 0,
@@ -6238,7 +6274,7 @@
                 "publishedAt": "2024-11-01T14:22:51Z"
             },
             "203392574": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v2.0.0-alpha.40",
                 "publishedAt": "2024-11-01T14:22:51Z"
@@ -12050,6 +12086,42 @@
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v2.0.0-alpha.43",
                 "publishedAt": "2024-11-03T12:34:01Z"
+            },
+            "203778168": {
+                "downloadCount": 0,
+                "name": "imagec-arm64-macos-bin.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
+            },
+            "203778166": {
+                "downloadCount": 0,
+                "name": "imagec-arm64-macos-bundle.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
+            },
+            "203778164": {
+                "downloadCount": 0,
+                "name": "imagec-x64-linux-bin.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
+            },
+            "203778163": {
+                "downloadCount": 0,
+                "name": "imagec-x64-linux-bundle.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
+            },
+            "203778167": {
+                "downloadCount": 0,
+                "name": "imagec-x64-win-bin.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
+            },
+            "203778165": {
+                "downloadCount": 1,
+                "name": "imagec-x64-win-bundle.zip",
+                "tagName": "v2.0.0-alpha.44",
+                "publishedAt": "2024-11-03T13:38:44Z"
             }
         }
     }
