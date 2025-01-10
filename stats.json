@@ -1931,6 +1931,32 @@
                 "downloadsToday": 0,
                 "downloadsCountAccumulated": 114
             }
+        }
+    },
+    "2025-01-09": {
+        "downloadsToday": 0,
+        "downloadsCountAccumulated": 1358,
+        "downloadCountDetails": {
+            "win": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 793
+            },
+            "macos": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 9
+            },
+            "linux": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 442
+            },
+            "source": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 0
+            },
+            "other": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 114
+            }
         },
         "downloadCountAssets": {
             "203758813": {
@@ -8463,7 +8489,7 @@
             }
         }
     },
-    "2025-01-09": {
+    "2025-01-10": {
         "downloadsToday": 0,
         "downloadsCountAccumulated": 1358,
         "downloadCountDetails": {
