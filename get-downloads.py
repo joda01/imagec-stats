@@ -174,11 +174,12 @@ def generateGraph(lastXDays):
 
         # Get today's date
         today = datetime.date.today()
+        actDate = datetime.date.today()
         # Calculate the date 30 days ago
         x_days_ago = today - datetime.timedelta(days=lastXDays)
         
         for dateTime,data in parsedData.items():
-            date_obj = datetime.strptime(data, "%Y-%m-%d")
+            date_obj = actDate.strptime(data, "%Y-%m-%d")
             if x_days_ago <= date_obj <= today:
                 time_values.append(dateTime)
                 y_values.append(int(data["downloadsToday"]))
