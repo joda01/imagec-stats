@@ -179,7 +179,7 @@ def generateGraph(lastXDays):
         x_days_ago = today - datetime.timedelta(days=lastXDays)
         
         for dateTime,data in parsedData.items():
-            date_obj = strptime(dateTime, "%Y-%m-%d")
+            date_obj = datetime.datetime.strptime(dateTime, "%Y-%m-%d").date()
             if x_days_ago <= date_obj <= today:
                 time_values.append(dateTime)
                 y_values.append(int(data["downloadsToday"]))
