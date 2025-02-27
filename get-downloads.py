@@ -164,18 +164,22 @@ def generateFigure(y_values, time_values, fileName):
     plt.savefig(fileName)
 
 
-def generateGraph():
+def generateGraph(lastXDays):
     with open("stats.json", "r") as f:
         json_string = f.read()
         parsedData = json.loads(json_string)
         time_values=[]
         y_values=[]
         y_valueAccumulated=[]
-        count = 0    
+
+        # Get today's date
+        today = datetime.today().date()
+        # Calculate the date 30 days ago
+        x_days_ago = today - timedelta(days=lastXDays)
         
         for dateTime,data in parsedData.items():
-            count = count + 1
-            if count > 10:
+            date_obj = datetime.strptime(data, "%Y-%m-%d").date()
+            if x_days_ago <= date_obj <= today:
                 time_values.append(dateTime)
                 y_values.append(int(data["downloadsToday"]))
                 y_valueAccumulated.append(int(data["downloadsCountAccumulated"]))
@@ -186,4 +190,4 @@ def generateGraph():
 
 token = sys.argv[1]
 getStats(token)
-generateGraph()
+generateGraph(120)
