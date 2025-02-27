@@ -190,4 +190,4 @@ def generateGraph(lastXDays):
 
 token = sys.argv[1]
 getStats(token)
-generateGraph(120)
+generateGraph(90)
