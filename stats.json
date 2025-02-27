@@ -10208,24 +10208,60 @@
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v2.0.0-alpha.76",
                 "publishedAt": "2025-02-19T18:01:11Z"
+            },
+            "232970728": {
+                "downloadCount": 0,
+                "name": "imagec-arm64-macos-bin.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
+            },
+            "232970732": {
+                "downloadCount": 0,
+                "name": "imagec-arm64-macos-bundle.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
+            },
+            "232970729": {
+                "downloadCount": 0,
+                "name": "imagec-x64-linux-bin.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
+            },
+            "232970730": {
+                "downloadCount": 1,
+                "name": "imagec-x64-linux-bundle.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
+            },
+            "232970731": {
+                "downloadCount": 1,
+                "name": "imagec-x64-win-bin.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
+            },
+            "232970727": {
+                "downloadCount": 1,
+                "name": "imagec-x64-win-bundle.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
             }
         }
     },
     "2025-02-27": {
-        "downloadsToday": 0,
-        "downloadsCountAccumulated": 1482,
+        "downloadsToday": 3,
+        "downloadsCountAccumulated": 1485,
         "downloadCountDetails": {
             "win": {
-                "downloadsToday": 0,
-                "downloadsCountAccumulated": 868
+                "downloadsToday": 2,
+                "downloadsCountAccumulated": 870
             },
             "macos": {
                 "downloadsToday": 0,
                 "downloadsCountAccumulated": 10
             },
             "linux": {
-                "downloadsToday": 0,
-                "downloadsCountAccumulated": 482
+                "downloadsToday": 1,
+                "downloadsCountAccumulated": 483
             },
             "source": {
                 "downloadsToday": 0,
@@ -17238,6 +17274,42 @@
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v2.0.0-alpha.76",
                 "publishedAt": "2025-02-19T18:01:11Z"
+            },
+            "232970728": {
+                "downloadCount": 0,
+                "name": "imagec-arm64-macos-bin.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
+            },
+            "232970732": {
+                "downloadCount": 0,
+                "name": "imagec-arm64-macos-bundle.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
+            },
+            "232970729": {
+                "downloadCount": 0,
+                "name": "imagec-x64-linux-bin.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
+            },
+            "232970730": {
+                "downloadCount": 1,
+                "name": "imagec-x64-linux-bundle.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
+            },
+            "232970731": {
+                "downloadCount": 1,
+                "name": "imagec-x64-win-bin.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
+            },
+            "232970727": {
+                "downloadCount": 1,
+                "name": "imagec-x64-win-bundle.zip",
+                "tagName": "v2.0.0-alpha.77",
+                "publishedAt": "2025-02-27T04:54:28Z"
             }
         }
     }
