@@ -1,6 +1,7 @@
 import requests
 import json
 import datetime
+from datetime import datetime, timedelta
 import sys
 import matplotlib.pyplot as plt
 
@@ -173,7 +174,7 @@ def generateGraph(lastXDays):
         y_valueAccumulated=[]
 
         # Get today's date
-        today = datetime.today().date()
+        today = datetime.date.today().date()
         # Calculate the date 30 days ago
         x_days_ago = today - timedelta(days=lastXDays)
         
