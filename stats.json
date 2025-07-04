@@ -6481,6 +6481,32 @@
                 "downloadsToday": 0,
                 "downloadsCountAccumulated": 123
             }
+        }
+    },
+    "2025-07-03": {
+        "downloadsToday": 2,
+        "downloadsCountAccumulated": 1790,
+        "downloadCountDetails": {
+            "win": {
+                "downloadsToday": 2,
+                "downloadsCountAccumulated": 1146
+            },
+            "macos": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 13
+            },
+            "linux": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 508
+            },
+            "source": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 0
+            },
+            "other": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 123
+            }
         },
         "downloadCountAssets": {
             "203758813": {
@@ -7690,7 +7716,7 @@
                 "publishedAt": "2024-09-04T20:09:50Z"
             },
             "190448736": {
-                "downloadCount": 2,
+                "downloadCount": 3,
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v1.0.0-alpha.116",
                 "publishedAt": "2024-09-04T20:09:50Z"
@@ -11668,7 +11694,7 @@
                 "publishedAt": "2024-01-05T16:02:47Z"
             },
             "143954369": {
-                "downloadCount": 3,
+                "downloadCount": 4,
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v1.0.0-alpha.6",
                 "publishedAt": "2024-01-05T16:02:47Z"
@@ -13108,13 +13134,13 @@
                 "publishedAt": "2025-01-07T18:35:46Z"
             },
             "218679111": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-bin.zip",
                 "tagName": "v2.0.0-alpha.68",
                 "publishedAt": "2025-01-07T18:35:46Z"
             },
             "218679112": {
-                "downloadCount": 5,
+                "downloadCount": 6,
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v2.0.0-alpha.68",
                 "publishedAt": "2025-01-07T18:35:46Z"
@@ -14723,13 +14749,13 @@
             }
         }
     },
-    "2025-07-03": {
-        "downloadsToday": 2,
-        "downloadsCountAccumulated": 1790,
+    "2025-07-04": {
+        "downloadsToday": 4,
+        "downloadsCountAccumulated": 1794,
         "downloadCountDetails": {
             "win": {
-                "downloadsToday": 2,
-                "downloadsCountAccumulated": 1146
+                "downloadsToday": 4,
+                "downloadsCountAccumulated": 1150
             },
             "macos": {
                 "downloadsToday": 0,
@@ -15956,7 +15982,7 @@
                 "publishedAt": "2024-09-04T20:09:50Z"
             },
             "190448736": {
-                "downloadCount": 2,
+                "downloadCount": 3,
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v1.0.0-alpha.116",
                 "publishedAt": "2024-09-04T20:09:50Z"
@@ -19934,7 +19960,7 @@
                 "publishedAt": "2024-01-05T16:02:47Z"
             },
             "143954369": {
-                "downloadCount": 3,
+                "downloadCount": 4,
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v1.0.0-alpha.6",
                 "publishedAt": "2024-01-05T16:02:47Z"
@@ -21374,13 +21400,13 @@
                 "publishedAt": "2025-01-07T18:35:46Z"
             },
             "218679111": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-bin.zip",
                 "tagName": "v2.0.0-alpha.68",
                 "publishedAt": "2025-01-07T18:35:46Z"
             },
             "218679112": {
-                "downloadCount": 5,
+                "downloadCount": 6,
                 "name": "imagec-x64-win-bundle.zip",
                 "tagName": "v2.0.0-alpha.68",
                 "publishedAt": "2025-01-07T18:35:46Z"
