@@ -3,7 +3,19 @@ import json
 import datetime
 import sys
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+import matplotlib.dates as mdates
+import urllib.request
 
+def getEvaStats():
+    urllib.request.urlretrieve("https://sites.imagej.net/stats.json", "stats_eva.json")
+    nrTotal = 0
+    with open('stats_eva.json') as f:
+        stats = json.load(f)
+        ev = stats["evanalyzer"]
+        for date, nr in ev.items():
+            print(date + " " + str(nr))
+            nrTotal = nrTotal + nr
 
 def getStats(token):
 
@@ -144,24 +156,35 @@ def getStats(token):
     with open("stats.json", "w") as f:
         f.write(json_string)
 
-def generateFigure(y_values, time_values, fileName):
+def generateFigure(y_values,y_valueAccumulatedEva, time_values, fileName):
     # Plot the graph
     plt.figure(figsize=(10, 5))
-    plt.plot(time_values, y_values, marker='o', linestyle='-', color='b')
+   
+    time_values_dt = [datetime.datetime.strptime(d, "%Y-%m-%d") for d in time_values]
+
+    plt.plot(time_values_dt, y_valueAccumulatedEva, marker='', linestyle='-', color='b', label="Line 2")
+
+    plt.plot(time_values_dt, y_values, marker='', linestyle='-', color='g')
+
+
 
     # Set labels and title
-    plt.xlabel("Time")
-    plt.ylabel("Downloads")
-    plt.title("Time vs Downloads")
+    plt.xlabel("")
+    plt.ylabel("Downloads", fontsize=16)
+    plt.title("")
     plt.grid(True)  # Display the grid
 
 
-    # Rotate date labels on x-axis for better readability
-    plt.xticks(rotation=45)
+    # Limit to 10 x-axis ticks
+    ax = plt.gca()
+    ax.xaxis.set_major_locator(ticker.MaxNLocator(nbins=4))
+    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
 
-    # Save the plot as a PNG file
-    plt.tight_layout()  # Adjust layout to fit labels
+    plt.xticks(rotation=45, fontsize=16) # X-axis tick labels
+    plt.yticks(fontsize=16)              # Y-axis tick labels
+    plt.tight_layout()
     plt.savefig(fileName)
+    plt.close()
 
 
 def generateGraph(lastXDays):
@@ -170,25 +193,58 @@ def generateGraph(lastXDays):
         parsedData = json.loads(json_string)
         time_values=[]
         y_values=[]
+        y_valuesEva=[]
         y_valueAccumulated=[]
+        y_valueAccumulatedEva=[]
+
+    with open("stats_eva.json", "r") as f:
+        json_string_eva = f.read()
+        parsedDataEva = json.loads(json_string_eva)["evanalyzer"]
 
         # Get today's date
         today = datetime.date.today()
-        actDate = datetime.date.today()
-        # Calculate the date 30 days ago
-        x_days_ago = today - datetime.timedelta(days=lastXDays)
+        x_days_ago = datetime.date(2022, 1, 1)
         
-        for dateTime,data in parsedData.items():
-            date_obj = datetime.datetime.strptime(dateTime, "%Y-%m-%d").date()
-            if x_days_ago <= date_obj <= today:
-                time_values.append(dateTime)
+        current = x_days_ago
+        lastAccu = 0
+        lastAccuEva = 0
+        while current <= today:
+            current_day_str = current.strftime("%Y-%m-%d")
+            current_day_str_Ax = current.strftime("%Y")
+            
+            if current_day_str in parsedData:
+                data = parsedData[current_day_str]
+                time_values.append(current_day_str)
                 y_values.append(int(data["downloadsToday"]))
                 y_valueAccumulated.append(int(data["downloadsCountAccumulated"]))
+                lastAccu = int(data["downloadsCountAccumulated"])
+            else:
+                time_values.append(current_day_str)
+                y_values.append(int(0))
+                y_valueAccumulated.append(int(lastAccu))
 
-        generateFigure(y_values,time_values, "downloads_per_day.png")
-        generateFigure(y_valueAccumulated,time_values, "downloads_accumulated.png")
+            if current_day_str in parsedDataEva:
+                data = parsedDataEva[current_day_str]
+                lastAccuEva = int(data)+lastAccuEva
+                y_valuesEva.append(int(data))
+                y_valueAccumulatedEva.append(lastAccuEva)
+            else:
+                y_valueAccumulatedEva.append(lastAccuEva)
+                y_valuesEva.append(int(0))
+
+
+            current += datetime.timedelta(days=1)
+
+
+                
+        generateFigure(y_values,y_valuesEva,time_values, "downloads_per_day.png")
+        generateFigure(y_valueAccumulated,y_valueAccumulatedEva,time_values, "downloads_accumulated.png")
+
+
+
 
 
 token = sys.argv[1]
 getStats(token)
+getEvaStats()
 generateGraph(90)
