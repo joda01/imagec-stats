@@ -12851,6 +12851,32 @@
                 "downloadsToday": 0,
                 "downloadsCountAccumulated": 125
             }
+        }
+    },
+    "2025-12-25": {
+        "downloadsToday": 1,
+        "downloadsCountAccumulated": 2084,
+        "downloadCountDetails": {
+            "win": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 1333
+            },
+            "macos": {
+                "downloadsToday": 1,
+                "downloadsCountAccumulated": 40
+            },
+            "linux": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 586
+            },
+            "source": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 0
+            },
+            "other": {
+                "downloadsToday": 0,
+                "downloadsCountAccumulated": 125
+            }
         },
         "downloadCountAssets": {
             "203758813": {
@@ -23361,8 +23387,8 @@
             }
         }
     },
-    "2025-12-25": {
-        "downloadsToday": 1,
+    "2025-12-26": {
+        "downloadsToday": 0,
         "downloadsCountAccumulated": 2084,
         "downloadCountDetails": {
             "win": {
@@ -23370,7 +23396,7 @@
                 "downloadsCountAccumulated": 1333
             },
             "macos": {
-                "downloadsToday": 1,
+                "downloadsToday": 0,
                 "downloadsCountAccumulated": 40
             },
             "linux": {
