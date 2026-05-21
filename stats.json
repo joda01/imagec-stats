@@ -27724,67 +27724,67 @@
                 "publishedAt": "2026-04-24T12:36:55Z"
             },
             "425554852": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-arm64-macos-cpu-bin.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554850": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-arm64-macos-cpu-bundle.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554848": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-linux-cpu-bin.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554849": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-linux-cpu-bundle.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554857": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-linux-cuda-bin.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554851": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-linux-cuda-bundle.7z",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554856": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-cpu-bin.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554854": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-cpu-bundle.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554855": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-cuda-bin.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554853": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-cuda-bundle.7z",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425494670": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "sbom.cdx.json",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
@@ -27792,20 +27792,20 @@
         }
     },
     "2026-05-21": {
-        "downloadsToday": 2,
-        "downloadsCountAccumulated": 2267,
+        "downloadsToday": 13,
+        "downloadsCountAccumulated": 2278,
         "downloadCountDetails": {
             "win": {
-                "downloadsToday": 2,
-                "downloadsCountAccumulated": 1499
+                "downloadsToday": 6,
+                "downloadsCountAccumulated": 1503
             },
             "macos": {
-                "downloadsToday": 0,
-                "downloadsCountAccumulated": 54
+                "downloadsToday": 2,
+                "downloadsCountAccumulated": 56
             },
             "linux": {
-                "downloadsToday": 0,
-                "downloadsCountAccumulated": 589
+                "downloadsToday": 4,
+                "downloadsCountAccumulated": 593
             },
             "source": {
                 "downloadsToday": 0,
@@ -27813,7 +27813,7 @@
             },
             "other": {
                 "downloadsToday": 0,
-                "downloadsCountAccumulated": 125
+                "downloadsCountAccumulated": 126
             }
         },
         "downloadCountAssets": {
@@ -38918,67 +38918,67 @@
                 "publishedAt": "2026-04-24T12:36:55Z"
             },
             "425554852": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-arm64-macos-cpu-bin.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554850": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-arm64-macos-cpu-bundle.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554848": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-linux-cpu-bin.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554849": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-linux-cpu-bundle.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554857": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-linux-cuda-bin.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554851": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-linux-cuda-bundle.7z",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554856": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-cpu-bin.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554854": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-cpu-bundle.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554855": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-cuda-bin.zip",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425554853": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "imagec-x64-win-cuda-bundle.7z",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
             },
             "425494670": {
-                "downloadCount": 0,
+                "downloadCount": 1,
                 "name": "sbom.cdx.json",
                 "tagName": "0.0.19",
                 "publishedAt": "2026-05-20T18:55:38Z"
