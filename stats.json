@@ -27606,7 +27606,7 @@
                 "publishedAt": "2026-02-01T16:16:48Z"
             },
             "349155539": {
-                "downloadCount": 79,
+                "downloadCount": 80,
                 "name": "imagec-x64-win-cpu-bundle.zip",
                 "tagName": "0.0.16",
                 "publishedAt": "2026-02-01T16:16:48Z"
@@ -27896,12 +27896,12 @@
         }
     },
     "2026-05-27": {
-        "downloadsToday": 0,
-        "downloadsCountAccumulated": 2280,
+        "downloadsToday": 1,
+        "downloadsCountAccumulated": 2281,
         "downloadCountDetails": {
             "win": {
-                "downloadsToday": 0,
-                "downloadsCountAccumulated": 1505
+                "downloadsToday": 1,
+                "downloadsCountAccumulated": 1506
             },
             "macos": {
                 "downloadsToday": 0,
@@ -38800,7 +38800,7 @@
                 "publishedAt": "2026-02-01T16:16:48Z"
             },
             "349155539": {
-                "downloadCount": 79,
+                "downloadCount": 80,
                 "name": "imagec-x64-win-cpu-bundle.zip",
                 "tagName": "0.0.16",
                 "publishedAt": "2026-02-01T16:16:48Z"
