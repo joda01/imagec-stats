@@ -27778,7 +27778,7 @@
                 "publishedAt": "2026-02-01T16:16:48Z"
             },
             "349155540": {
-                "downloadCount": 6,
+                "downloadCount": 7,
                 "name": "imagec-arm64-macos-cpu-bundle.zip",
                 "tagName": "0.0.16",
                 "publishedAt": "2026-02-01T16:16:48Z"
@@ -28104,16 +28104,16 @@
         }
     },
     "2026-06-06": {
-        "downloadsToday": 0,
-        "downloadsCountAccumulated": 2285,
+        "downloadsToday": 1,
+        "downloadsCountAccumulated": 2286,
         "downloadCountDetails": {
             "win": {
                 "downloadsToday": 0,
                 "downloadsCountAccumulated": 1510
             },
             "macos": {
-                "downloadsToday": 0,
-                "downloadsCountAccumulated": 56
+                "downloadsToday": 1,
+                "downloadsCountAccumulated": 57
             },
             "linux": {
                 "downloadsToday": 0,
@@ -38972,7 +38972,7 @@
                 "publishedAt": "2026-02-01T16:16:48Z"
             },
             "349155540": {
-                "downloadCount": 6,
+                "downloadCount": 7,
                 "name": "imagec-arm64-macos-cpu-bundle.zip",
                 "tagName": "0.0.16",
                 "publishedAt": "2026-02-01T16:16:48Z"
